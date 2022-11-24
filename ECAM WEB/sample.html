@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Form Validation</title>
+  <!-- <script type="javascript" src="valid.js">
+    // Form validation will go here
+  </script> -->
+</head>
+<body>
+  <form id="form">
+      <label for="name">Username</label>
+      <input type="text" id="username">  <br>
+      <label for="password">Password</label>    
+      <input type="password" id="password"><br>
+      
+        <input type="submit" value="Submit" id="submit-btn" /><a href=""></a>
+  </form>
+  <script>
+      const submitBtn = document.getElementById('submit-btn');
+
+const validate = (e) => {
+  e.preventDefault();
+  const username = document.getElementById('username');
+  const password = document.getElementById('password');
+  if (username.value === 'greyfinder' || password.value === 1234 ) {
+    alert("Success");
+
+    return false;
+  }
+  if (password.value === "1234") {
+    alert("sucess");
+    password.focus();
+    return false;
+  }
+  
+  return true;
+}
+
+submitBtn.addEventListener('click', validate);
+  </script>
+</body>
+</html>

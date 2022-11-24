@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Need maintanence</title>
+        <link rel="stylesheet" href="main.css">
+    
+    </head>
+    <body>
+        <form method="post" action="mailto:maniprasanth12@gmail.com">
+            <input type="text" placeholder="Name" id="name" autocomplete="off">
+            <input type="email" placeholder="Email" id="email" autocomplete="off" value="maniprasanth.a.k@gmail.com">
+            <input type="subject" placeholder="subject" id="subject" autocomplete="off">
+            <textarea id="message" placeholder="Message" cols="30" rows="10"></textarea>
+            <button id="btn">Send</button>
+
+        </form>
+        <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <script>
+            var btn=document.getElementById('btn');
+            btn.addEventListener('click',function(e){
+                e.preventDefault()
+                var name=document.getElementById('name').value;
+                var email=document.getElementById('email').value;
+                var subject=document.getElementById('subject').value;
+                var message=document.getElementById('message').value;
+                var body='name: ' +name +'<br/>email: ' +email+'<br/>subject'+subject+'<br/>message'+message;
+
+                   Email.send({
+                    Host : "smtp.gmail.com",
+                    Username : "maniprasanth.a.k@gmail.com",
+                    Password : "jpsymyrudbbzdkkc",
+                    To : 'maniprasanth.a.k@gmail.com',
+                    From : email,
+                    Subject : subject,
+                    Body : body,
+                }).then(
+                message => alert(message)
+                );
+
+            })
+        </script> -->
+        
+        <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                   Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "maniprasanth12@gmail.com",
+                    Password : "NOV@2001",
+                    To : 'maniprasanth12@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "Need for maintanence",
+                    Body : document.getElementById("message").value,
+                }).then(
+                message => alert(message)
+                );
+
+            }
+        </script> -->
+    </body>
+</html>

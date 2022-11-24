@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Multi toggle</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+	<script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/f1119a2e4a.js" crossorigin="anonymous"></script>
+  
+	<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBfmLslPBwz-VWXaPVJW_lDOLe_TaMM-nI",
+    authDomain: "ignitrron-room.firebaseapp.com",
+    databaseURL: "https://ignitrron-room-default-rtdb.firebaseio.com",
+    projectId: "ignitrron-room",
+    storageBucket: "ignitrron-room.appspot.com",
+    messagingSenderId: "984810828746",
+    appId: "1:984810828746:web:5cb9459d8c5b9e799b1533",
+    measurementId: "G-CP2LBHJ0CV"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+	</h1>
+	<<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Multi toggle</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+		<script src="script.js"></script>
+		<script src="https://kit.fontawesome.com/f1119a2e4a.js" crossorigin="anonymous"></script>
+	  
+		<script type="module">
+	  // Import the functions you need from the SDKs you need
+	  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+	  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+	  // TODO: Add SDKs for Firebase products that you want to use
+	  // https://firebase.google.com/docs/web/setup#available-libraries
+	
+	  // Your web app's Firebase configuration
+	  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	  const firebaseConfig = {
+		apiKey: "AIzaSyBfmLslPBwz-VWXaPVJW_lDOLe_TaMM-nI",
+		authDomain: "ignitrron-room.firebaseapp.com",
+		databaseURL: "https://ignitrron-room-default-rtdb.firebaseio.com",
+		projectId: "ignitrron-room",
+		storageBucket: "ignitrron-room.appspot.com",
+		messagingSenderId: "984810828746",
+		appId: "1:984810828746:web:5cb9459d8c5b9e799b1533",
+		measurementId: "G-CP2LBHJ0CV"
+	  };
+	
+	  // Initialize Firebase
+	  const app = initializeApp(firebaseConfig);
+	  const analytics = getAnalytics(app);
+	</script>
+		<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<nav class="navbar" style="top:0">
+			<div class="navbar-container container">
+				<input type="checkbox" name="" id="">
+				<div class="hamburger-lines">
+					<span class="line line1"></span>
+					<span class="line line2"></span>
+					<span class="line line3"></span>
+				</div>
+				<ul class="menu-items">
+					
+					<li><a href="index.html">Home</a></li>
+					
+					<li><a href="about.html">About</a></li>
+				</ul>
+				<h1 class="logo">E-CAM WEB</h1>
+			</div>
+		</nav>
+	<div><h1 class="subb">Huffle puff</h1></div>
+		<div class="wrapper">	
+			<div class="progress">
+				<a class = "icon1" >
+					<i class="fa-solid fa-fan"></i>
+				</a>
+				<div class= "toggle-btn" id="unact">
+					<div class= "inner-circle">
+		
+					</div>
+				</div>
+				<div class= "toggle-btn active" id="act" >
+					<div class= "inner-circle">
+		
+					</div>
+				</div>
+			</div>
+	
+			<div class="progress">
+				<a class = "icon1" >
+				  <i class="fa-solid fa-lightbulb"></i>
+				</a>
+				<div class= "toggle-btn1" id="unact1">
+					<div class= "inner-circle">
+		
+					</div>
+				</div>
+				<div class= "toggle-btn1 active" id="act1" >
+					<div class= "inner-circle">
+		
+					</div>
+				</div>
+			</div>
+			
+			<div class="progress">
+				<a class = "icon1" >
+					<i class="fas fa-4x fa-tv"></i>
+				</a>
+				<div class= "toggle-btn2" id="unact2">
+					<div class= "inner-circle">
+		
+					</div>
+				</div>
+				<div class= "toggle-btn2 active" id="act2" >
+					<div class= "inner-circle">
+		
+					</div>
+				</div>
+			</div>
+			<div class="progress">
+				<a class = "icon1" >
+					<i class="fa-solid fa-temperature-arrow-up"></i>
+				</a>
+				<div class= "toggle-btn3" id="unact3">
+					<div class= "inner-circle">
+		
+					</div>
+				</div>
+				<div class= "toggle-btn3 active" id="act3" >
+					<div class= "inner-circle">
+		
+					</div>
+				</div>
+			</div>	
+		</div>
+	</body>
+	<footer>
+		<p class="text-center">Copyright &copy; 2022 Ignitrron</p>
+	  </footer>
+	</html>div ><h1 style="color:indianred;">E-CAM WEB</h1></div>
+<div><h1 class="subb">Huffle puff</h1></div>
+	<div class="wrapper">	
+		<div class="progress">
+			<a class = "icon1" >
+				<i class="fa-solid fa-fan"></i>
+			</a>
+			<div class= "toggle-btn" id="unact">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn active" id="act" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+
+		<div class="progress">
+			<a class = "icon1" >
+			  <i class="fa-solid fa-lightbulb"></i>
+			</a>
+			<div class= "toggle-btn1" id="unact1">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn1 active" id="act1" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+		
+		<div class="progress">
+			<a class = "icon1" >
+				<i class="fas fa-4x fa-tv"></i>
+			</a>
+			<div class= "toggle-btn2" id="unact2">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn2 active" id="act2" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>
+		<div class="progress">
+			<a class = "icon1" >
+				<i class="fa-solid fa-temperature-arrow-up"></i>
+			</a>
+			<div class= "toggle-btn3" id="unact3">
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+			<div class= "toggle-btn3 active" id="act3" >
+				<div class= "inner-circle">
+	
+				</div>
+			</div>
+		</div>	
+	</div>
+</body>
+<footer>
+	<p class="text-center">Copyright &copy; 2022 Ignitrron</p>
+  </footer>
+</html>

@@ -1,0 +1,88 @@
+body{
+    background-color:	#06062b;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    padding:20px;
+    width:50%;
+    box-shadow: 20px 20px 20px 0px rgb(0,0,0,0.8);
+    background-color: white;    
+}
+
+input[type='text'],
+input[type='password']{
+    width:100%;
+    border:none;
+    margin:5px 0px 22px 0px;
+    padding:15px;
+    display:inline-block;
+    background: whitesmoke;
+
+}
+
+.regbtn{
+    margin:auto;
+    padding:15px;
+    width:100%;
+    background-color:	#06062b;
+    opacity:0.8;
+    border:none;
+}
+
+.regbtn:hover{
+    opacity:1;
+}
+
+/* index2 */
+.con{
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    text-align: center;
+}
+.container01{
+    background-color:	#06062b;
+    margin:auto;
+    padding:30px;
+    color:aliceblue;
+}
+.container02{
+    margin:auto;
+    padding:40px;
+    box-shadow: 10px 0px 10px 0px rgb(0,0,0,0.8);    
+}
+.container02 img {
+    padding:30px;
+    transition: transform .2s;
+
+}
+.container02 img:hover{
+    transform: scale(1.5);
+}
+.container03{
+    margin:auto;
+    padding:30px;
+    background-color:#06062b;
+}
+.container03 button{
+    padding:8px;
+    border-radius: 10px;
+    border: none;
+    width:50%;
+    background-color:whitesmoke;
+    opacity:0.6;
+    font-weight:5px;
+}
+.container03 button:hover{
+    /* background-image:linear-gradient(to left, rgb(82, 82, 245),rgb(55, 244, 55)); */
+    opacity:1;
+    box-shadow: 10px 0px 10px 0px rgb(0,0,0,0.8);   
+}
+.container03 a:hover{
+    color:whitesmoke;
+}
